@@ -1,0 +1,24 @@
+Default: &defaults
+  user: postgres
+  password: cwezi
+  host: localhost
+  port: 5432
+  database: cwezi
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: cwezi_test
+  <<: *defaults
+
+Staging:
+  database: cwezi_staging
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: cwezi_production
+  poolsize: 100
+  <<: *defaults

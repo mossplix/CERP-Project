@@ -1,0 +1,4 @@
+Test suite test: RUNNING...
+test: SqlError {sqlState = "", sqlNativeError = -1, sqlErrorMsg = "FATAL:  database \"cwezi_test\" does not exist\n"}
+Test suite test: FAIL
+Test suite logged to: dist/test/cwezi-0.0.0-test.log
