@@ -5,3 +5,11 @@ cabal-dev
 *.chi
 *.chs.h
 .virthualenv
+*.o
+*.o_p
+dist
+*.swp
+client_session_key.aes
+cabal-dev/
+yesod/foobar/
+.dist-buildwrapper
